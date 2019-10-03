@@ -11,4 +11,7 @@ public interface Transicoes {
     void transportar(Pedido pedido);
     void entregar(Pedido pedido);
     void finalizar(Pedido pedido);
-    void devolver(Pedido pedido);}
+    void devolver(Pedido pedido);
+    void novoPedido(Pedido pedido);
+    
+}
